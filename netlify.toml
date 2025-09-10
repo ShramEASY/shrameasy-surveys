@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Change this if your build command is different
+  publish = "dist"  # The folder where Netlify will serve files from
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
