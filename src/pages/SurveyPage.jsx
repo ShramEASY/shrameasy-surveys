@@ -6,7 +6,7 @@ export default function SurveyPage() {
   const { surveyId } = useParams();
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="  max-w-3xl mx-auto">
       <SurveyComponent surveyId={surveyId}/>
     </div>
   );

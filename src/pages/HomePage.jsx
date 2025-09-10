@@ -106,7 +106,7 @@ function HomePage() {
 
         {/* Footer */}
         <footer className="text-center text-gray-500 text-sm mt-10">
-          <p>© {new Date().getFullYear()} ShramEASY Survey Portal. All rights reserved.</p>
+          {/* <p>© {new Date().getFullYear()} ShramEASY Survey Portal. All rights reserved.</p> */}
           <p className="mt-1">Your feedback helps us improve and serve you better.</p>
         </footer>
       </div>
